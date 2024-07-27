@@ -141,7 +141,7 @@ main .intro-text p {
 @media (max-width: 1000px) {
     .coomingsoon-img {
         transform: rotate(90deg);
-        width: 100%;  /* Aumenta el tamaño al 90% al voltear */
+        width: 100%;  /* Aumenta el tamaño al 100% en pantallas pequeñas */
         height: auto;
     }
 }
