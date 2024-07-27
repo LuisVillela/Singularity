@@ -151,3 +151,52 @@ main .intro-text p {
     padding: 50px 20px;       
     justify-content: center;
 }
+
+
+.separator {
+    margin: 50px 0; /* Ajusta el valor para el espacio deseado */
+}
+
+.teacher-view {
+    text-align: left;
+    margin: 20px;
+}
+
+.teacher-view h2 {
+    font-size: 28px;
+    color: #4285f4;
+    margin-bottom: 10px;
+}
+
+.teacher-view p {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+.teacher-view ul {
+    list-style-type: disc;
+    margin-left: 20px;
+    color: #555;
+}
+
+.teacher-view li {
+    margin-bottom: 10px;
+}
+
+.button.social-button {
+    background-color: #4285f4;
+    border-radius: 25px;
+    transition: background-color 0.3s;
+    color: #fff;
+}
+
+.button.social-button:hover {
+    background-color: #4285f4;
+}
+
+.social-buttons {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
