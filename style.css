@@ -87,3 +87,14 @@ main .intro-text p {
 }
 
 
+.module-img {
+    width: 15%; /* Tamaño de las imágenes */
+    height: auto;
+    cursor: pointer;
+    margin: 2%;
+    transition: transform 0.3s;
+}
+
+.module-img:hover {
+    transform: scale(1.1);
+}
