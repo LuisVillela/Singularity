@@ -142,7 +142,7 @@ main .intro-text p {
 
 @media (max-width: 1000px) {
     .coomingsoon-img {
-        transform: rotate(90deg);
+        transform: rotate(0deg);
         width: 100%;  /* Aumenta el tamaño al 100% en pantallas pequeñas */
         height: auto;
     }
@@ -150,8 +150,9 @@ main .intro-text p {
 
 .coomingsoon-container {
     text-align: center;
-    padding: 50px 20px;       
+    padding: 20px 20px;       
     justify-content: center;
+
 }
 
 .separator {
