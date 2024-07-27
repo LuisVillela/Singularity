@@ -1,9 +1,13 @@
 <div class="container">
     <header>
-        <h1>Welcome to Singularity</h1>
+        <h1>Bienvenido a Singularity</h1>
     </header>
     <main>
-        <p>This is the Get Started view. Add your content here.</p>
-        <a href="#" class="button" onclick="loadView('home.html')">Go Back</a>
+        <p>Elige tu rol:</p>
+        <div class="role-selection">
+            <img src="public/student.png" alt="Student" class="role-button" onclick="loadView('student.html')">
+            <img src="public/profesor.png" alt="Profesor" class="role-button" onclick="loadView('profesor.html')">
+        </div>
+        <a href="#" class="button" onclick="loadView('home.html')">Volver</a>
     </main>
 </div>
