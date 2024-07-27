@@ -54,8 +54,13 @@ main .intro {
     flex-wrap: wrap;
 }
 
-main .intro img {
-    width: 250px; /* Ajusta el tamaño de la imagen aquí */
+main .intro img.lerni {
+    width: 250px; /* Ajusta el tamaño de la imagen de Lerni aquí */
+    margin: 20px;
+}
+
+main .intro img.logo {
+    width: 100px; /* Ajusta el tamaño de la imagen del logo aquí */
     margin: 20px;
 }
 
@@ -86,7 +91,7 @@ main .intro-text p {
     transform: scale(1.1);
 }
 
-.role-selection{
+.role-selection {
     padding-bottom: 20px;
     padding-top: 20px;
 }
@@ -96,14 +101,14 @@ main .intro-text p {
     height: auto;
     cursor: pointer;
     transition: transform 0.3s;
-    margin: 10px
+    margin: 10px;
 }
 
 .module-img:hover {
     transform: scale(1.1);
 }
 
-.module-selection{
+.module-selection {
     padding-top: 20px;
     padding-bottom: 20px;
 }
@@ -113,13 +118,11 @@ main .intro-text p {
     align-items: center;
     gap: 20px; /* Espacio entre la imagen y el texto */
     margin-bottom: 20px; /* Espacio debajo del header */
-
 }
 
-.module-logo{
+.module-logo {
     width: 60px; /* Ajusta el tamaño de las imágenes aquí */
     height: auto;
-
 }
 
 .module-title {
@@ -127,7 +130,6 @@ main .intro-text p {
     font-size: 24px;
     color: #4285f4;
 }
-
 
 .coomingsoon-img {
     width: 50%;
@@ -151,7 +153,6 @@ main .intro-text p {
     padding: 50px 20px;       
     justify-content: center;
 }
-
 
 .separator {
     margin: 50px 0; /* Ajusta el valor para el espacio deseado */
@@ -192,11 +193,42 @@ main .intro-text p {
 }
 
 .button.social-button:hover {
-    background-color: #4285f4;
+    background-color: #357ae8;
 }
 
 .social-buttons {
     display: flex;
     justify-content: center;
     margin-top: 20px;
+}
+
+
+.quiz-container {
+    text-align: center;
+    margin: 40px 0;
+}
+
+header img.gorro {
+    width: 100px; /* Ajusta el tamaño de la imagen del gorro aquí */
+    margin: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+main .intro-text2 {
+    max-width: 600px;
+    text-align: justify; /* Centrar el texto */
+    margin: 20px auto;
+}
+.intro-text2 h2{
+    text-align:center;
+}
+
+main .quiz {
+    width: 300px; /* Ajusta el tamaño de la imagen del quiz aquí */
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
