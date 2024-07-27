@@ -76,7 +76,7 @@ main .intro-text p {
 }
 
 .role-img {
-    width: 250px; /* Ajusta el tamaño de las imágenes aquí */
+    width: 15%; /* Ajusta el tamaño de las imágenes aquí */
     height: auto;
     cursor: pointer;
     transition: transform 0.3s;
