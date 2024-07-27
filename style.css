@@ -28,6 +28,20 @@ header p {
     margin-top: 20px;
 }
 
+.button2 {
+    display: inline-block;
+    margin: 10px;
+    padding: 15px 25px;
+    background-color: #d8e7ff;
+    color: #4285f4;
+    text-decoration: none;
+    border-radius: 25px;
+    transition: background-color 0.3s;
+    width: 110px;
+    font-weight: bold;
+}
+
+
 .button {
     display: inline-block;
     margin: 10px;
@@ -232,4 +246,60 @@ main .quiz {
     display: block;
     margin-left: auto;
     margin-right: auto;
+}
+
+.login-form {
+    max-width: 400px;
+    margin: 0 auto;
+    text-align: center; /* Cambiado a center */
+}
+
+.form-group {
+    margin-bottom: 20px;
+    text-align: left; /* Cambiado a center */
+}
+
+.form-group label {
+    display: block;
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 5px;
+}
+
+.form-group input {
+    width: 90%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.form-group button {
+    width: 90%;
+    padding: 15px;
+    font-size: 16px;
+    border: none;
+    border-radius: 25px;
+    background-color: #4285f4;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    align-items: center;
+}
+
+.form-group button:hover {
+    background-color: #4f8ae9;
+}
+
+.request-code-link {
+    display: inline-block;
+    margin: 10px auto; /* Centrar el enlace */
+    color: #4285f4;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.request-code-link:hover {
+    text-decoration: underline;
 }

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="separator"></div>
+            <h1>Login</h1>
+            <div class="separator"></div>
+        </header>
+        <main>
+            <form class="login-form">
+                <div class="form-group">
+                    <label for="institution-code">Institution Code</label>
+                    <input type="text" id="institution-code" name="institution-code" required>
+                    <p>Your institution should provide you with a code to log in.</p>
+                </div>
+                <div class="form-group">
+                    <button type="submit" class="button">Submit</button>
+                </div>
+            </form>
+            <div class="separator"></div>
+            <div class="buttons">
+                <a href="#" class="request-code-link" onclick="loadView('home.html')">Request a Code</a>
+            </div>
+            <div class="separator"></div>
+        </main>
+    </div>
+</body>
+</html>
