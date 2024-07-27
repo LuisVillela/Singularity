@@ -7,7 +7,7 @@ body {
 
 .container {
     text-align: center;
-    padding: 50px 20px;
+    padding: 20px 20px;
 }
 
 header {
@@ -44,7 +44,7 @@ header p {
 }
 
 .button:hover {
-    background-color: #357ae8;
+    background-color: #4f8ae9;
 }
 
 main .intro {
@@ -106,4 +106,48 @@ main .intro-text p {
 .module-selection{
     padding-top: 20px;
     padding-bottom: 20px;
+}
+
+.module-header {
+    display: flex;
+    align-items: center;
+    gap: 20px; /* Espacio entre la imagen y el texto */
+    margin-bottom: 20px; /* Espacio debajo del header */
+
+}
+
+.module-logo{
+    width: 60px; /* Ajusta el tamaño de las imágenes aquí */
+    height: auto;
+
+}
+
+.module-title {
+    font-family: 'Arial', sans-serif;
+    font-size: 24px;
+    color: #4285f4;
+}
+
+
+.coomingsoon-img {
+    width: 50%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+}
+
+@media (max-width: 1000px) {
+    .coomingsoon-img {
+        transform: rotate(90deg);
+        width: 100%;  /* Aumenta el tamaño al 90% al voltear */
+        height: auto;
+    }
+}
+
+.coomingsoon-container {
+    text-align: center;
+    padding: 50px 20px;       
+    justify-content: center;
 }
