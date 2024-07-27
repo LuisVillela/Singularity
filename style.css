@@ -76,7 +76,7 @@ main .intro-text p {
 }
 
 .role-img {
-    width: 20%; /* Ajusta el tamaño de las imágenes aquí */
+    width: 300px; /* Ajusta el tamaño de las imágenes aquí */
     height: auto;
     cursor: pointer;
     transition: transform 0.3s;
@@ -86,13 +86,24 @@ main .intro-text p {
     transform: scale(1.1);
 }
 
+.role-selection{
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
 .module-img {
-    width: 20%; /* Ajusta el tamaño de las imágenes aquí */
+    width: 150px; /* Ajusta el tamaño de las imágenes aquí */
     height: auto;
     cursor: pointer;
     transition: transform 0.3s;
+    margin: 10px
 }
 
 .module-img:hover {
     transform: scale(1.1);
+}
+
+.module-selection{
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
