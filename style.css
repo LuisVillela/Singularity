@@ -76,12 +76,23 @@ main .intro-text p {
 }
 
 .role-img {
-    width: 50%; /* Ajusta el tamaño de las imágenes aquí */
+    width: 20%; /* Ajusta el tamaño de las imágenes aquí */
     height: auto;
     cursor: pointer;
     transition: transform 0.3s;
 }
 
 .role-img:hover {
+    transform: scale(1.1);
+}
+
+.module-img {
+    width: 20%; /* Ajusta el tamaño de las imágenes aquí */
+    height: auto;
+    cursor: pointer;
+    transition: transform 0.3s;
+}
+
+.module-img:hover {
     transform: scale(1.1);
 }
