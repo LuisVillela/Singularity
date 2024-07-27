@@ -8,6 +8,12 @@ Edita los archivos index.html, style.css, o cualquier otro archivo necesario en 
 Abre index.html en tu navegador para verificar los cambios.
 Si estás utilizando un servidor local, asegúrate de refrescar la página en tu navegador.
 
+##ahora
+ahora uso live server para verlo localmente
+1.abrir el proyecto en vscode
+2. darle click derecho al index.html y darle a open with live server
+3. listo
+
 3.Sube los cambios a GitHub:
 Una vez que estés satisfecho con los cambios, abre una terminal en la carpeta de tu proyecto y sigue estos pasos:
 

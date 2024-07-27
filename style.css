@@ -55,7 +55,7 @@ main .intro {
 }
 
 main .intro img {
-    width: 150px;
+    width: 300px; /* Ajusta el tamaño de la imagen aquí */
     margin: 20px;
 }
 
